@@ -47,13 +47,6 @@
   composes: functions from './SearchableSelect.css';
 }
 
-.portal {
-  position: fixed;
-  z-index: var(--zindex-portal);
-  top: 0;
-  left: 0;
-}
-
 .popper {
   composes: shadow-4dp from "part:@sanity/base/theme/shadows-style";
   box-sizing: border-box;
